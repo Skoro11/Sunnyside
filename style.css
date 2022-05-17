@@ -11,14 +11,14 @@ nav{
 .text{
   font-size:18px;
   font-weight:600;
-  margin:10px;
+  margin:25px;
   color:white;
   display:flex;
 font-family: 'Fraunces', serif;
   width:55%;
 }
 .nav-items{
-  padding:10px;
+  padding:0;
   display:flex;
   margin-right:0;
 }
@@ -56,7 +56,7 @@ a{
   color:white;
 }
 #burger{
-  margin:10px 20px;
+  margin:25px 20px;
   height:30px;
   display:none;
 }
@@ -274,15 +274,30 @@ button{
     display:block;
   }
   #list{
-    display:flex;
+
   text-align:center;
-  margin:100px 0;
+
+    padding: 10px 0;
+    position: absolute;
+    top:60px;
+    left:10%;
+    right:10%;
+    width: 80%;
+    background-color:yellow;
 
 }
 #list li{
   list-style:none;
   display:grid;
+  padding:5px 0;
   width:100%;
+}
+#list a{
+  color:black;
+  font-weight:500;
+}
+#list a:hover{
+  color:blue;
 }
   .text{
     width:90%;
@@ -338,6 +353,4 @@ button{
    height:300px;
    grid-template-columns:50% 50%;
    grid-template-rows:auto;
- }
-
 }
